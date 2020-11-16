@@ -1,0 +1,201 @@
+12:31:01.165 INFO  [TLM] HTTP Server started on port 3050 
+12:33:18.880 INFO  [TLM] HTTP Server started on port 3050 
+12:33:33.912 INFO  [TLM] HTTP Server started on port 3050 
+12:33:47.164 INFO  [TLM] HTTP Server started on port 3050 
+12:34:10.828 INFO  [TLM] HTTP Server started on port 3050 
+12:34:34.913 INFO  [TLM] HTTP Server started on port 3050 
+12:35:59.289 INFO  [TLM] HTTP Server started on port 3050 
+12:36:00.009 INFO  [CRON] getNotasVentas  
+12:38:00.073 INFO  [CRON] getNotasVentas  
+12:38:58.229 INFO  [TLM] HTTP Server started on port 3050 
+12:40:00.025 INFO  [CRON] getNotasVentas  
+12:41:23.247 INFO  [TLM] HTTP Server started on port 3050 
+12:42:00.032 INFO  [CRON] getNotasVentas  
+12:44:00.007 INFO  [CRON] getNotasVentas  
+12:46:00.014 INFO  [CRON] getNotasVentas  
+12:48:00.009 INFO  [CRON] getNotasVentas  
+12:48:28.506 INFO  [TLM] HTTP Server started on port 3050 
+12:48:42.153 INFO  [TLM] HTTP Server started on port 3050 
+12:49:36.257 INFO  [TLM] HTTP Server started on port 3050 
+12:49:53.757 INFO  [TLM] HTTP Server started on port 3050 
+12:50:00.008 INFO  [CRON] getNotasVentas  
+12:51:51.319 INFO  [TLM] HTTP Server started on port 3050 
+12:52:04.987 INFO  [TLM] HTTP Server started on port 3050 
+12:52:28.132 INFO  [TLM] HTTP Server started on port 3050 
+12:52:51.320 INFO  [TLM] HTTP Server started on port 3050 
+12:54:00.034 INFO  [CRON] getNotasVentas  
+12:54:35.998 INFO  [TLM] HTTP Server started on port 3050 
+12:56:00.020 INFO  [CRON] getNotasVentas  
+12:58:00.014 INFO  [CRON] getNotasVentas  
+13:00:00.012 INFO  [CRON] getNotasVentas  
+13:02:00.015 INFO  [CRON] getNotasVentas  
+13:04:00.025 INFO  [CRON] getNotasVentas  
+13:06:00.026 INFO  [CRON] getNotasVentas  
+13:08:03.156 INFO  [TLM] HTTP Server started on port 3050 
+13:09:09.142 INFO  [TLM] HTTP Server started on port 3050 
+13:10:03.371 INFO  [TLM] HTTP Server started on port 3050 
+13:12:00.059 INFO  [CRON] getNotasVentas  
+13:14:00.042 INFO  [CRON] getNotasVentas  
+13:14:55.503 INFO  [TLM] HTTP Server started on port 3050 
+13:16:01.924 INFO  [TLM] HTTP Server started on port 3050 
+13:18:00.039 INFO  [CRON] getNotasVentas  
+13:20:00.030 INFO  [CRON] getNotasVentas  
+13:20:09.615 INFO  [TLM] HTTP Server started on port 3050 
+13:20:57.416 INFO  [TLM] HTTP Server started on port 3050 
+13:22:00.028 INFO  [CRON] getNotasVentas  
+13:22:38.781 INFO  [TLM] HTTP Server started on port 3050 
+13:23:27.262 INFO  [TLM] HTTP Server started on port 3050 
+13:24:06.205 INFO  [TLM] HTTP Server started on port 3050 
+13:26:00.066 INFO  [CRON] getNotasVentas  
+13:26:56.125 INFO  [TLM] HTTP Server started on port 3050 
+13:28:00.052 INFO  [CRON] getNotasVentas  
+13:30:00.023 INFO  [CRON] getNotasVentas  
+13:32:00.112 INFO  [CRON] getNotasVentas  
+13:34:00.024 INFO  [CRON] getNotasVentas  
+13:35:24.551 INFO  [TLM] HTTP Server started on port 3050 
+13:35:53.567 INFO  [TLM] HTTP Server started on port 3050 
+13:36:00.008 INFO  [CRON] getNotasVentas  
+13:36:50.580 INFO  [TLM] HTTP Server started on port 3050 
+13:38:00.018 INFO  [CRON] getNotasVentas  
+13:40:00.029 INFO  [CRON] getNotasVentas  
+13:40:46.345 INFO  [TLM] HTTP Server started on port 3050 
+13:42:00.024 INFO  [CRON] getNotasVentas  
+13:44:00.013 INFO  [CRON] getNotasVentas  
+13:46:00.018 INFO  [CRON] getNotasVentas  
+13:48:00.012 INFO  [CRON] getNotasVentas  
+13:50:00.013 INFO  [CRON] getNotasVentas  
+13:52:00.013 INFO  [CRON] getNotasVentas  
+13:54:00.022 INFO  [CRON] getNotasVentas  
+13:56:00.052 INFO  [CRON] getNotasVentas  
+13:57:48.656 INFO  [TLM] HTTP Server started on port 3050 
+13:58:00.013 INFO  [CRON] getNotasVentas  
+13:59:08.560 INFO  [TLM] HTTP Server started on port 3050 
+14:00:00.046 INFO  [CRON] getNotasVentas  
+14:01:40.513 INFO  [TLM] HTTP Server started on port 3050 
+14:02:00.026 INFO  [CRON] getNotasVentas  
+14:04:00.012 INFO  [CRON] getNotasVentas  
+14:04:56.717 INFO  [TLM] HTTP Server started on port 3050 
+14:06:00.018 INFO  [CRON] getNotasVentas  
+14:08:00.007 INFO  [CRON] getNotasVentas  
+14:10:00.009 INFO  [CRON] getNotasVentas  
+14:12:00.008 INFO  [CRON] getNotasVentas  
+14:14:00.014 INFO  [CRON] getNotasVentas  
+14:16:00.010 INFO  [CRON] getNotasVentas  
+14:18:00.032 INFO  [CRON] getNotasVentas  
+14:20:00.117 INFO  [CRON] getNotasVentas  
+14:22:00.022 INFO  [CRON] getNotasVentas  
+14:24:00.008 INFO  [CRON] getNotasVentas  
+14:26:00.100 INFO  [CRON] getNotasVentas  
+14:28:00.008 INFO  [CRON] getNotasVentas  
+14:30:00.007 INFO  [CRON] getNotasVentas  
+14:30:54.184 INFO  [TLM] HTTP Server started on port 3050 
+14:32:00.034 INFO  [CRON] getNotasVentas  
+14:34:00.045 INFO  [CRON] getNotasVentas  
+14:36:00.023 INFO  [CRON] getNotasVentas  
+14:38:00.035 INFO  [CRON] getNotasVentas  
+14:40:00.025 INFO  [CRON] getNotasVentas  
+14:42:00.020 INFO  [CRON] getNotasVentas  
+14:44:00.005 INFO  [CRON] getNotasVentas  
+14:46:00.009 INFO  [CRON] getNotasVentas  
+14:48:00.009 INFO  [CRON] getNotasVentas  
+14:50:00.015 INFO  [CRON] getNotasVentas  
+14:52:00.010 INFO  [CRON] getNotasVentas  
+14:54:00.022 INFO  [CRON] getNotasVentas  
+14:56:00.007 INFO  [CRON] getNotasVentas  
+14:58:00.007 INFO  [CRON] getNotasVentas  
+15:00:00.028 INFO  [CRON] getNotasVentas  
+15:02:00.004 INFO  [CRON] getNotasVentas  
+15:04:00.005 INFO  [CRON] getNotasVentas  
+15:06:00.011 INFO  [CRON] getNotasVentas  
+15:08:00.012 INFO  [CRON] getNotasVentas  
+15:10:00.003 INFO  [CRON] getNotasVentas  
+15:12:00.005 INFO  [CRON] getNotasVentas  
+15:14:00.004 INFO  [CRON] getNotasVentas  
+15:16:00.009 INFO  [CRON] getNotasVentas  
+15:18:00.005 INFO  [CRON] getNotasVentas  
+15:20:00.005 INFO  [CRON] getNotasVentas  
+15:22:00.008 INFO  [CRON] getNotasVentas  
+15:24:00.005 INFO  [CRON] getNotasVentas  
+15:26:00.008 INFO  [CRON] getNotasVentas  
+15:28:00.006 INFO  [CRON] getNotasVentas  
+15:30:00.003 INFO  [CRON] getNotasVentas  
+15:32:00.008 INFO  [CRON] getNotasVentas  
+15:34:00.008 INFO  [CRON] getNotasVentas  
+15:36:00.007 INFO  [CRON] getNotasVentas  
+15:38:00.009 INFO  [CRON] getNotasVentas  
+15:40:00.003 INFO  [CRON] getNotasVentas  
+15:42:00.020 INFO  [CRON] getNotasVentas  
+15:44:00.011 INFO  [CRON] getNotasVentas  
+15:46:00.004 INFO  [CRON] getNotasVentas  
+15:48:00.009 INFO  [CRON] getNotasVentas  
+15:50:00.005 INFO  [CRON] getNotasVentas  
+15:52:00.006 INFO  [CRON] getNotasVentas  
+15:54:00.005 INFO  [CRON] getNotasVentas  
+15:56:00.006 INFO  [CRON] getNotasVentas  
+15:58:00.010 INFO  [CRON] getNotasVentas  
+16:00:00.004 INFO  [CRON] getNotasVentas  
+16:02:00.004 INFO  [CRON] getNotasVentas  
+16:04:00.004 INFO  [CRON] getNotasVentas  
+16:06:00.004 INFO  [CRON] getNotasVentas  
+16:08:00.003 INFO  [CRON] getNotasVentas  
+16:10:00.005 INFO  [CRON] getNotasVentas  
+16:12:00.023 INFO  [CRON] getNotasVentas  
+16:14:00.008 INFO  [CRON] getNotasVentas  
+16:16:00.007 INFO  [CRON] getNotasVentas  
+16:18:00.008 INFO  [CRON] getNotasVentas  
+16:20:00.008 INFO  [CRON] getNotasVentas  
+16:22:00.007 INFO  [CRON] getNotasVentas  
+16:24:00.008 INFO  [CRON] getNotasVentas  
+16:26:00.029 INFO  [CRON] getNotasVentas  
+16:28:00.029 INFO  [CRON] getNotasVentas  
+16:30:00.008 INFO  [CRON] getNotasVentas  
+16:32:00.005 INFO  [CRON] getNotasVentas  
+16:34:00.005 INFO  [CRON] getNotasVentas  
+16:36:00.016 INFO  [CRON] getNotasVentas  
+16:38:00.010 INFO  [CRON] getNotasVentas  
+16:40:00.006 INFO  [CRON] getNotasVentas  
+16:42:00.007 INFO  [CRON] getNotasVentas  
+16:44:00.004 INFO  [CRON] getNotasVentas  
+16:46:00.005 INFO  [CRON] getNotasVentas  
+16:48:00.009 INFO  [CRON] getNotasVentas  
+16:50:00.006 INFO  [CRON] getNotasVentas  
+16:52:00.005 INFO  [CRON] getNotasVentas  
+16:54:00.009 INFO  [CRON] getNotasVentas  
+16:56:00.006 INFO  [CRON] getNotasVentas  
+16:58:00.019 INFO  [CRON] getNotasVentas  
+17:00:00.006 INFO  [CRON] getNotasVentas  
+17:02:00.018 INFO  [CRON] getNotasVentas  
+17:04:00.006 INFO  [CRON] getNotasVentas  
+17:06:00.013 INFO  [CRON] getNotasVentas  
+17:08:00.019 INFO  [CRON] getNotasVentas  
+17:10:00.023 INFO  [CRON] getNotasVentas  
+17:12:00.013 INFO  [CRON] getNotasVentas  
+17:14:00.006 INFO  [CRON] getNotasVentas  
+17:16:00.003 INFO  [CRON] getNotasVentas  
+17:18:00.008 INFO  [CRON] getNotasVentas  
+17:20:00.012 INFO  [CRON] getNotasVentas  
+17:22:00.006 INFO  [CRON] getNotasVentas  
+17:24:00.002 INFO  [CRON] getNotasVentas  
+17:26:00.009 INFO  [CRON] getNotasVentas  
+17:28:00.009 INFO  [CRON] getNotasVentas  
+17:30:00.005 INFO  [CRON] getNotasVentas  
+17:32:00.011 INFO  [CRON] getNotasVentas  
+17:34:00.006 INFO  [CRON] getNotasVentas  
+17:36:00.070 INFO  [CRON] getNotasVentas  
+17:38:00.008 INFO  [CRON] getNotasVentas  
+17:40:00.007 INFO  [CRON] getNotasVentas  
+17:42:00.011 INFO  [CRON] getNotasVentas  
+17:44:00.007 INFO  [CRON] getNotasVentas  
+17:46:00.019 INFO  [CRON] getNotasVentas  
+17:48:00.012 INFO  [CRON] getNotasVentas  
+17:50:00.013 INFO  [CRON] getNotasVentas  
+17:52:00.008 INFO  [CRON] getNotasVentas  
+17:54:00.017 INFO  [CRON] getNotasVentas  
+17:56:00.008 INFO  [CRON] getNotasVentas  
+17:58:00.014 INFO  [CRON] getNotasVentas  
+18:00:00.015 INFO  [CRON] getNotasVentas  
+18:02:00.010 INFO  [CRON] getNotasVentas  
+18:04:00.009 INFO  [CRON] getNotasVentas  
+18:06:00.008 INFO  [CRON] getNotasVentas  
+18:08:00.006 INFO  [CRON] getNotasVentas  
+18:10:00.017 INFO  [CRON] getNotasVentas  
