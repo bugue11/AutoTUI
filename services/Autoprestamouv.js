@@ -6,7 +6,7 @@ let fs = require('fs');
 let moment = require('moment-timezone');
 const sistem= require("./Config").Config.instance.getConfig().general;
 const sqlUV = require("./Config").Config.instance.getConfig().sqlUV;
-const log = require('simple-node-logger').createSimpleLogger('logs/importaciones/' + moment().format('MM-DD-YYYY') + '.log');
+
 
 class Autoprestamouv extends ZModule {
     constructor() {
@@ -372,7 +372,7 @@ async addSis(sistema){
 
     }
     async getBarcode(code) {
-        log.info('[Barcode prueba]')
+   
         let db = new SQLServer(sqlUV.server, sqlUV.userName, sqlUV.password, "Biblio");
 
         try {
