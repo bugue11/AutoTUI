@@ -1,0 +1,67 @@
+<div class="container main-loader">
+    <div class="card w-100 text-center" >
+    <img src="assets/img/top.PNG" class="card-img-top"  >
+    <div class="card-body">
+    <div id="detalles" class="container-fluid" style="margin-bottom: 30px;">
+        <div class="row">
+            <div id="prueba1" class="col">
+            </div>
+
+        </div>
+    </div>
+    <div class="row justify-content-center">   
+    <div id="mensajeImportando" class="alert alert-light" style="display: none;">
+        <span class="fa fa-spinner fa-spin fa-2x mr-1"></span> Validando información ..
+    </div>
+    </div>
+    <div class="row justify-content-center">    
+        <button id="cmdInit" type="button" class="btn btn-primary mr-2">
+          Autopréstamo
+        </button>  
+        <button id="cmdLibros" type="button" class="btn btn-primary mr-2">
+                Agregar libros
+             <i class="fa fa-plus-square ml-2"></i>
+         </button>  
+      
+    </div>
+  
+    <div class="row justify-content-between"> 
+    <div id="listaInvoiceContainer2" class="container">
+         <div class="col">  
+            <div class="table">
+                <table id="listaComponentes" 
+                    data-z-table="true" 
+                    class="table  table-striped table-bordered" 
+                    data-z-selectable-row-class="table-primary" 
+                    style="font-size:70%;width:100%">
+                    <thead>
+                        <tr class="tr-header-custom-centered">  
+                            <!-- <th data-z-col="autor"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" style="width:20;">Autor</th> -->
+                             <th class="text-center" data-z-col="nombre"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" data-z-columna-titulo="true" >Título</th>                             
+                             <th data-z-col="edDetalle" class="th-tabla-custom" data-z-cell-class="td-tabla-custom py-0"
+                             style="width: 40px;"></th>
+                            </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+         </div> 
+            <hr>
+         
+        </div>
+        </div>
+    </div>
+    <div class="card-footer text-muted">
+        <div class="row justify-content-center">    
+             
+             <button id="cmdConfirm" type="button" class="btn btn-sm btn-success mr-4 pt-2">
+                Confirmar selección
+            </button> 
+            <button id="cmdCancel" type="button" class="btn btn-sm btn-danger mr-4 pt-2">
+                Cancelar préstamo
+            </button> 
+        </div>
+    </div>
+    </div>
+     </div> 
+  
