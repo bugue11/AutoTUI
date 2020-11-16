@@ -1,0 +1,29 @@
+{
+    "httpServer":{
+        "port":3030
+    },
+    "adminDefault":{
+        "login":"admin",
+        "nombre":"Administrador General",
+        "email": "hbugueno@alumnos.uv.cl"
+    },
+    
+    "sqlUV":{
+        "server":"10.10.1.10",
+        "userName":"sa",
+        "password":"qwerty01x",
+        "database":"Biblio"
+    },
+    "general":{
+        "idSistema": 0
+    },
+    "configPassword":{
+        "minLarge": 10,
+        "maxLarge": 20,
+        "listadoCaracteresEsp": "$@$!%*?&",
+        "minCaracteresEspeciales":2 ,
+        "cantidadMayusculas": 2,
+        "cantidadMinusculas": 2,
+        "cantidadNum" : 2 
+    }
+}
