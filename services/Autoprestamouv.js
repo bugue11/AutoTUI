@@ -6,6 +6,7 @@ let fs = require('fs');
 let moment = require('moment-timezone');
 const sistem= require("./Config").Config.instance.getConfig().general;
 const sqlUV = require("./Config").Config.instance.getConfig().sqlUV;
+var path = require("path")
 
 
 class Autoprestamouv extends ZModule {
@@ -246,9 +247,9 @@ async addSis(sistema){
     }
     async tuirut() {
         this.dat
-
+        let ppy=path.join(__dirname, '..','python','main.py' )
         const spawn = require('child_process').spawn;
-        const rut = spawn('python', ['C:/Users/ares_/Desktop/main.py'])
+        const rut = spawn('python', [ppy])
         return new Promise((res, rej) => {
             rut.stdout.on('data', (data) => {
                 //console.log(data.toString())
