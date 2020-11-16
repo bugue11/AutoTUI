@@ -1,0 +1,54 @@
+<div class="container main-loader container-fluid">
+    <div class="card mt-0 d-flex">
+        <div class="card-header text-white mt-0" style="height: 3rem;">
+            <h6 class="mt-0">Listado de Usuarios</h6>
+        </div>
+        <div class="card-body">
+            <div class="row px-5">
+                <div class="col-lg-6 text-left">
+                    <div id="edFiltro" data-z-component="common/SearchField"></div>
+                </div>
+
+                <div class="col-lg-6 text-right">
+                    <button id="cmdAgregarUsuario" type="button" class="btn btn-sm btn-success ml-1 mr-1"
+                        data-toggle="button" aria-pressed="false" style="width: 40%;">
+                        Usuario
+                        <i class="fa fa-plus-square ml-2"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="z-responsive-tables px-xl-5 tabla_titulo">
+
+                <table id="listaUsuarios" data-z-table="true" class="table table-bordered" data-z-edit="true"
+                    data-z-edit-header-class="th-tabla-custom" data-z-edit-cell-class="td-tabla-custom pt-1"
+                    data-z-selectable-row-class="table-primary" data-z-page-details="detalle-listaUsuarios"
+                    data-z-pager="paginador-listaUsuarios" style="font-size:80%;">
+                    <thead class="thead-light">
+                        <tr class="tr-header-custom text-dark">
+                            <th data-z-col="nombre" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1"
+                                data-z-columna-titulo="true">Nombres</th>
+                            <th data-z-col="email" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">
+                                Email
+                            </th>
+                            <th data-z-col="perfil" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">
+                                Perfil
+                            </th>
+                        
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <hr>
+            <div class="row justify-content-center">
+                <small id="detalle-listaUsuarios" class="form-text text-muted"></small>
+            </div>
+            <div class="row justify-content-center">
+                <ul id="paginador-listaUsuarios" class="pagination pagination-sm pagination-centered"
+                    data-z-pagination="local" data-z-n-rows="10" data-z-n-pages="20"></ul>
+            </div>
+        </div>
+
+    </div>
+</div>

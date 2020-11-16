@@ -1,0 +1,77 @@
+<div class="container main-loader" >
+    <h4>Listado de préstamos</h4>
+    
+    <hr>     
+    <div id="listaInvoiceContainer" class="row">
+        <div class="col-lg-12">
+
+              
+            <div class="row px-12">
+                <div class="col-lg-6 ">
+                    <label for="biblio" class="col-form-label">Filtro: </label>
+                    <select class="selectpicker" data-width="50%" id="biblio" data-style="btn-primary" title="Bibliotecas"
+                    data-live-search="true">
+                    <!-- <option value="">No seleccionado</option> -->
+                    <option value="Arquitectura">Arquitectura</option>
+                    <option value="Ciencias y Farmacia">Ciencias y Farmacia</option>
+                    <option value="Ciencias del mar">Ciencias del mar</option>
+                    <option value="Ciencias económicas">Ciencias económicas</option>
+                    <option value="Derecho">Derecho</option>
+                    <option value="Ingeniería">Ingeniería</option>
+                    <option value="Las Heras">Las Heras</option>
+                    <option value="Medicina">Medicina</option>
+                    <option value="Odontología">Odontología</option>
+                    </select>
+                </div>
+                <div class="col-lg-6 ">
+                    <div id="edFiltro" data-z-component="common/SearchField"></div>
+                </div>
+            </div>
+            <div class="row px-12">
+                <div class="col-lg-6 "></div>
+                <div class="col-lg-6 ">
+                    <div class="input-group">
+        
+                        <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+        
+                        <input id="fromDate" name="dates" type="text" class="daterange" value="" />
+                        <input id="toDate" />
+                    </div>
+                </div>
+            </div>
+           <hr>
+            <div class="z-responsive-tables">
+                <table id="listaPlanes" 
+                    data-z-table="true" 
+                    class="table table-bordered table-sm"
+                    data-z-edit-header-class="th-tabla-custom pt-1" 
+                    data-z-edit-cell-class="td-tabla-custom pt-1" 
+                    data-z-selectable-row-class="table-primary"
+                    
+                    style="font-size:80%;">
+                    <thead class="thead-light">
+                        <tr class="tr-header-custom-centered">                                
+                            <th data-z-col="alumno_id"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" data-z-editable="true" data-z-columna-titulo="true" >Rut alumno</th>
+                            <th data-z-col="fecha_inicio"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" >Fecha de autopréstamo</th>
+                            <th data-z-col="fecha_termino"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" >Fecha devolución</th>
+                            <th data-z-col="ubicacion"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" >Biblioteca</th>
+                            <th data-z-col="estado"  class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1" >Estado</th>
+                            <th data-z-col="edDetalle" class="th-tabla-custom" data-z-cell-class="td-tabla-custom py-0"
+                                style="width: 40px;">Detalles</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <hr>
+            <!-- <div class="row justify-content-center">
+                <small id="detalle-listaPlanes" class="form-text text-muted"></small>
+            </div>
+            <div class="row justify-content-center">
+                <ul id="paginador-listaPlanes" class="pagination pagination-sm pagination-centered" data-z-pagination="local" data-z-n-rows="10" data-z-n-pages="20"></ul>
+            </div> -->
+
+        </div>
+  
+    </div>
+</div>

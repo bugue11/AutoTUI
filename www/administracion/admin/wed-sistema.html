@@ -1,0 +1,75 @@
+﻿<div class='modal fade' tabindex='-1' aria-hidden="true">
+    <div class='modal-dialog modal-lg ' role='document'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <h5 id="title" class='modal-title mt-0 mb-1'>[Acción] Planes</h5>
+                <button type='button' class='close' data-dismiss="modal"><span
+                        aria-hidden='true'>&times;</span></button>
+            </div>
+            <hr class="w-100 my-0" />
+            <div class='modal-body'>
+                <div id="errorMsg" class="alert alert-warning my-2">El Sistema se encuentra inactivo</div>               
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group bmd-form-group">
+                            <label for="edBiblio" class="bmd-label-floating">Biblioteca</label>
+                            <input type="text" class="form-control" id="edBiblio" maxlength="100" disabled>
+                            <small class="bmd-help">Ubicación del sistema</small>
+                        </div>
+                    </div>
+                 
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group bmd-form-group">
+                            <label for="edEstado" class="bmd-label-floating">Estado del sistema</label>
+                            <input type="text" class="form-control" id="edEstado" maxlength="100" disabled>
+                        </div>
+                         
+                        </div>
+                    </div>
+                </div>
+               
+                
+                <hr class="w-100 my-2" />
+
+                <div id="listaPlandetalleContainer" class="row">
+                    <div class="col-lg-12">
+                    <div class="z-responsive-tables">
+                        <table id="listaPlandetalle" data-z-table="true" class="table table-sm table-hover table-striped table-bordered"
+                            data-z-selectable-row-class="table-primary" data-z-page-details="detalle-listaPlandetalle"
+                            data-z-pager="paginador-listaPlandetalle" style="font-size:80%;">
+                            <thead>
+                                <tr class="tr-header-custom">
+                                    <th data-z-col="alumno_id" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">Rut estudiante</th>
+                                    <th data-z-col="fecha_inicio" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">Fecha inicio</th>
+                                    <th data-z-col="fecha_termino" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">Fecha término</th>
+                                    <th data-z-col="estado" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-center">
+                        <small id="detalle-listaPlandetalle" class="form-text text-muted"></small>
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul id="paginador-listaPlandetalle" class="pagination pagination-sm pagination-centered"
+                            data-z-pagination="local" data-z-n-rows="10" data-z-n-pages="10"></ul>
+                    </div>
+                    </div>
+                </div>
+                <div id="footer" class='modal-footer'>
+                    <button id="cmdOk" class='btn btn-primary mr-2' type="button">Aceptar</button>
+                </div>
+
+            </div>
+
+
+           
+            
+        </div>
+    </div>
+</div>

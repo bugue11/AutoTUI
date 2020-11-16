@@ -1,0 +1,85 @@
+﻿<div class='modal fade' tabindex='-1' aria-hidden="true">
+    <div class='modal-dialog modal-lg ' role='document'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <h5 id="title" class='modal-title mt-0 mb-1'>[Acción] Planes</h5>
+                <button type='button' class='close' data-dismiss="modal"><span
+                        aria-hidden='true'>&times;</span></button>
+            </div>
+            <hr class="w-100 my-0" />
+            <div class='modal-body'>
+                <div id="errorMsg" class="alert alert-warning my-2">El préstamo ya fue entregado</div>
+
+               
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group bmd-form-group">
+                            <label for="edRut" class="bmd-label-floating">Rut</label>
+                            <input type="text" class="form-control" id="edRut" maxlength="100" readonly>
+                            <small class="bmd-help">Rut del estudiante</small>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group bmd-form-group">
+                            <label for="edBiblio" class="bmd-label-floating">Biblioteca</label>
+                            <input type="text" class="form-control" id="edBiblio" maxlength="100" readonly>
+                            <small class="bmd-help">Ubicación del préstamo</small>
+                        </div>
+                    </div>
+                 
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for="edEstado" class="bmd-label">Estado :</label>
+                        <div class="form-group">
+                            <select id="edEstado" class="form-control dropdown-toggle" required data-style="btn btn-link"
+                                data-z-id-field="id" data-z-label-field="nombre" data-z-placeholder="[Seleccione Estado]"
+                                data-z-placeholder-enable="true">
+                            </select>
+                         
+                        </div>
+                    </div>
+                </div>
+               
+                
+                <hr class="w-100 my-2" />
+
+                <div id="listaPlandetalleContainer" class="row">
+                    <div class="col-lg-12">
+                    <div class="z-responsive-tables">
+                        <table id="listaPlandetalle" data-z-table="true" class="table table-sm table-hover table-striped table-bordered img-raised"
+                            data-z-selectable-row-class="table-primary" data-z-page-details="detalle-listaPlandetalle"
+                            data-z-pager="paginador-listaPlandetalle" style="font-size:80%;">
+                            <thead>
+                                <tr class="tr-header-custom">
+                                    <th data-z-col="cod" class="th-tabla-custom" data-z-cell-class="td-tabla-custom pt-1">
+                                        Código</th>
+                                    <th data-z-col="titulo" class="th-tabla-custom"
+                                        data-z-cell-class="td-tabla-custom pt-1">Título</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-center">
+                        <small id="detalle-listaPlandetalle" class="form-text text-muted"></small>
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul id="paginador-listaPlandetalle" class="pagination pagination-sm pagination-centered"
+                            data-z-pagination="local" data-z-n-rows="10" data-z-n-pages="10"></ul>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+           
+            <div id="footer" class='modal-footer'>
+                <button id="cmdOk" class='btn btn-primary mr-2' type="button">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>

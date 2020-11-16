@@ -1,0 +1,94 @@
+<div class='modal fade' tabindex='-1' aria-hidden="true">
+    <div class='modal-dialog modal-lg' role='document'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <h5 id="title" class='modal-title mt-0 mb-1'>[Acción] Usuario</h5>
+                <button type='button' class='close' data-dismiss="modal"><span aria-hidden='true'>&times;</span></button>
+            </div>
+            <hr class="w-100 my-0" />
+            <div class='modal-body'>
+                
+                <div id="loading" class="alert alert-success">
+                    <span class="tituloCargando">Espere por favor</span>
+                    <div class="loader"></div>
+                </div>
+
+                <div id="mensajeError" class="alert alert-danger">
+                    <div class="container">
+                        <i class="fa fa-exclamation-triangle fa-1x"></i>
+                        <b id="lblAccion">&nbsp;</b><span id="textoMensajeError"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 mt-0">
+                      <div class="form-group bmd-form-group mt-0">
+                            <label for="edCorreo" class="bmd-label-floating">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="edCorreo" required maxlength="50" />
+                            <div id="edCorreoInvalid" class="invalid-feedback">Debe ingresar el Email</div>
+                            <small class="bmd-help">La contraseña por defecto será el mail</small>
+                        </div> 
+                    </div>
+                    <div class="col-sm-6 mt-0">
+                        <div class="form-group bmd-form-group  mt-0">
+                            <label for="edNombre" class="bmd-label-floating">Nombre</label>
+                            <input type="text" class="form-control" id="edNombre" maxlength="100">
+                            <div class="invalid-feedback">Debe ingresar el Nombre</div>
+                            <small class="bmd-help">Nombre Completo del Usuario</small>
+                        </div>
+                    </div>
+                </div>
+               
+
+                <div class="row">
+                    <div class="col-sm-6 mt-0">
+                        <label for="edPerfiles" class="bmd-label"></label>
+                        <div class="form-group  mt-0">
+                            <select id="edPerfiles" class="form-control" required data-style="btn btn-link"
+                                data-z-id-field="id" data-z-label-field="perfil" data-z-placeholder="[Seleccione Perfil]"
+                                data-z-placeholder-enable="true"></select>
+                            <div class="invalid-feedback">Debe seleccionar un Perfil</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-0">
+                        <!-- <label for="edEmpresa" class="bmd-label  mt-0"></label>
+                        <div class="form-group  mt-0">
+                            <select id="edEmpresa" class="form-control dropdown-toggle" required data-style="btn btn-link"
+                                data-z-id-field="id" data-z-label-field="nombre" data-z-placeholder="[Seleccione Empresa]"
+                                data-z-placeholder-enable="true">
+                            </select>
+                            <div class="invalid-feedback">Debe selecciona una empresa</div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-sm-8">
+                        <div class="togglebutton">
+                            <label>
+                                <input id="edAdmin" type="checkbox" checked="">
+                                <span class="toggle"></span>
+                                Administrador
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="togglebutton">
+                            <label>
+                                <input id="edActivo" type="checkbox" checked="">
+                                <span class="toggle"></span>
+                                Activo
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div> -->
+            </div>
+            <div class='modal-footer'>
+                <button id="cmdOk" class='btn btn-success mr-2' type="button">Aceptar</button>
+                <button id="cmdCancel" class='btn btn-default' type="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
