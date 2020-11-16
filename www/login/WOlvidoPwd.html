@@ -1,0 +1,59 @@
+<div class='modal fade' tabindex='-1' aria-hidden="true">
+    <div class='modal-dialog modal-lg ' role='document'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <h5 id="title" class='modal-title mt-0 mb-1'>Crear Nueva Contraseña</h5>
+                <button type='button' class='close' data-dismiss="modal"><span aria-hidden='true'>&times;</span></button>
+            </div>
+            <hr class="w-100 my-0" />
+            <div class='modal-body'>
+                <div id="loading" class="alert alert-success">
+                    <span class="tituloCargando">Espere por favor</span>
+                    <div class="loader"></div>
+                </div>
+
+                <div id="mensajeInfo" class="alert alert-info">
+                    <div class="container">
+                        <i class="fa fa-info-circle fa-1x"></i>
+                        <b>Creación de Nueva Contraseña: </b>
+                        <span style="text-align: justify">Ingrese su identificación de usuario en el sistema. Se le enviará un correo con
+                            las instrucciones para crear una nueva contraseña de acceso.</span>
+                    </div>
+                </div>
+
+                <div id="mensajeError" class="alert alert-danger">
+                        <div class="container">
+                          <div class="alert-icon">
+                            <i class="material-icons">error_outline</i>
+                          </div>
+                          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                          </button>
+                          <b>Ha ocurrido un error: </b><span id="textoMensajeError"></span>
+                        </div>
+                      </div>
+
+                <div id="mensajeEnviando" class="alert alert-info">
+                    <div class="container">
+                        <div class="alert-icon">
+                            <i class="fa fa-spinner fa-spin mr-2"></i>
+                        </div>
+                        <span>Enviando correo con instrucciones, por favor espere ...</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                            <label for="edLogin">Identificación (login)</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="edLogin" maxlength="50" placeholder="Ingrese su identificación" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='modal-footer'>
+                <button id="cmdOk" class='btn btn-success mr-2' type="button">Aceptar</button>
+                <button id="cmdCancel" class='btn btn-default' type="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
