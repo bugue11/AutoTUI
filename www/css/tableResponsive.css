@@ -1,0 +1,146 @@
+
+@media only screen and (max-width: 800px) {
+  
+  /* Force table to not be like tables anymore */
+  .z-responsive-tables table, 
+  .z-responsive-tables thead, 
+  .z-responsive-tables tbody, 
+  .z-responsive-tables th, 
+  .z-responsive-tables td, 
+  .z-responsive-tables tr { 
+      display: block; 
+  }
+
+/* Hide table headers (but not display: none;, for accessibility) */
+  .z-responsive-tables thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+  tr td:first-child {
+      background: #f0f0f0;
+      font-weight:bold;
+      font-size:1.1em;
+  }
+  tbody td {
+      display: block;
+      text-align:center;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align:center;
+  }
+  .z-responsive-tables tr { border: 5px solid #f3f3f3; }
+
+  .z-responsive-tables td { 
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #f3f3f3; 
+      position: relative;
+      padding-left: 50%; 
+      white-space: normal;
+      text-align:center;
+      word-break: break-all;
+      word-wrap: break-word;
+      hyphens: auto;
+      height: 40px;
+  }
+
+  .z-responsive-tables td:before { 
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      left: 0px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+      text-align:center;
+      font-weight: bold;
+  }
+  .z-responsive-tables td:first-child:before {
+      background: #f0f0f0 !important;
+      font-weight:bold;
+      font-size:1.1em;
+  }
+
+/*
+Label the data
+*/
+  .z-responsive-tables td:before { 
+      text-align:center;     
+      content: attr(data-title); 
+      word-break: break-all;
+      word-wrap: break-word;
+      hyphens: auto;
+  }
+
+  .z-responsive-tables .hiddenTD{
+    display:none;
+  }
+
+  .z-responsive-tables .showTD{
+    display:show;
+  }
+}
+
+@media (min-width: 481px) {
+ .showTD{
+  word-break: break-all;
+  height: 100%;
+}
+ .hiddenTD{
+    word-break: break-all;
+  }
+}
+
+@media (min-width: 320px)  {
+  .showTD{
+  word-break: break-all;
+  height: 100%;
+  }
+  
+  .hiddenTD{
+    word-break: break-all;
+  }
+}
+
+@media (min-width: 200px)  {
+  .showTD{
+    word-break: break-all;
+    height: 100%;
+    }
+  .hiddenTD{
+      word-break: break-all;
+    }
+  }
+
+@media (min-width: 150px)  {
+    .showTD{
+      word-break: break-all !important;
+      height: 100%;
+      }
+    .hiddenTD{
+        word-break: break-all;
+      }
+}
+
+@media (min-width: 1000px) {
+ .ResponsiveColumnShow{
+   display:none;
+}
+ .ResponsiveColumnHide{
+   display:none;
+   }
+
+}
+
+@media (min-width: 800px) {
+.ResponsiveColumnShow{
+  display:none;
+  
+}
+.ResponsiveColumnHide{
+  display:none;
+  }
+}
